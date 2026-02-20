@@ -1,0 +1,26 @@
+{
+  "name": "backend-mvc",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/BoboCarmesim/backend-mvc#readme",
+  "bugs": {
+    "url": "https://github.com/BoboCarmesim/backend-mvc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoboCarmesim/backend-mvc.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.13"
+  }
+}
