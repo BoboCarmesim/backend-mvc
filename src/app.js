@@ -10,24 +10,7 @@ app.get("/", (request, response) => {
 
 app.use(express.json())
 
-app.post("/users", (req,res) =>{
-     const { name, age } = req.body
-    
-    //const name = req.body.name
-    
-    //const newUser = {
-    // name:name,
-    // age:age
-    //}
-
-    const newUser = {
-        id : Date.now(),
-        name,
-        age
-    }
-
-    res.send("Estamos testando")
-})
+app.post("/users", userController.createUser)
 
 app.get("/users",userController.getAllUsers )
 
