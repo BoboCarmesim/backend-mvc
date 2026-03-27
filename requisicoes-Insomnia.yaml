@@ -10,9 +10,9 @@ collection:
   - url: http://localhost:3000/
     name: teste api
     meta:
-      id: req_f9b8e1055ab54edb9a7d9736b6fabd2f
+      id: req_a2fb4b5eb3bc4b36bb073632d86e54c0
       created: 1773959398349
-      modified: 1773959465065
+      modified: 1774562854255
       isPrivate: false
       description: ""
       sortKey: -1773959398349
@@ -33,9 +33,9 @@ collection:
   - url: http://localhost:3000/users
     name: lista users
     meta:
-      id: req_26fd16ecf76b4d32b61ec86a6794b892
+      id: req_9a17fd9a303b4dfcae7c1a8c621d34f3
       created: 1773960369195
-      modified: 1773960411804
+      modified: 1774562853521
       isPrivate: false
       description: ""
       sortKey: -1773960369195
@@ -56,9 +56,9 @@ collection:
   - url: http://localhost:3000/users
     name: cadastra users
     meta:
-      id: req_ae2ddd58bb1048c8895e36c4180d0494
+      id: req_b90fcc7c5d5149f18b343c8373b571db
       created: 1773960461055
-      modified: 1773966591926
+      modified: 1774562852647
       isPrivate: false
       description: ""
       sortKey: -1773960461055
@@ -85,16 +85,39 @@ collection:
         send: true
         store: true
       rebuildPath: true
+  - url: http://localhost:3000/users/
+    name: busca user por id
+    meta:
+      id: req_896fd8b8c3e44835bf48726c4640ac2d
+      created: 1774570548619
+      modified: 1774573294226
+      isPrivate: false
+      description: ""
+      sortKey: -1774570548619
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
 cookieJar:
   name: Default Jar
   meta:
     id: jar_99d30891da4bdcebc63947a8fc17f076de878684
-    created: 1773959192779
-    modified: 1773959192779
+    created: 1774562776075
+    modified: 1774562776075
 environments:
   name: Base Environment
   meta:
     id: env_99d30891da4bdcebc63947a8fc17f076de878684
-    created: 1773959192777
-    modified: 1773959192777
+    created: 1774562776072
+    modified: 1774562776072
     isPrivate: false
